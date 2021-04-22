@@ -149,7 +149,7 @@ def draw_contor(src_gray, thresh):
 
 if __name__ == '__main__':
     # Read a video in
-    video_path = r'C:\Users\E17538\OneDrive - Uniper SE\Desktop\DailyActivities\FAD\ACV_Ses5\Ex_4'
+    video_path = r'C:\Users\path_to_your_video'
     video_name = '1.mp4'
     vid_path = os.path.join(video_path, video_name)
     cap = cv.VideoCapture(vid_path)
